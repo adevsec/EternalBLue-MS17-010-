@@ -1,7 +1,4 @@
-# EternalBLue-MS17-010-
-
-
-<h1>Failed RDP to IP Geolocation Information</h1>
+<h1>Exploiting EternalBlue (MS17–010)</h1>
 
 
  ### [YouTube Demonstration (@16:20)](https://youtu.be/RoZeVbbZ0o0?t=980)
@@ -12,17 +9,24 @@
 </b>
 <br />
 <br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+Understanding EternalBlue
+EternalBlue is an exploit developed by the NSA and leaked by the Shadow Brokers in 2017. It targets a flaw in Microsoft’s implementation of the SMB protocol, specifically versions 1.0, enabling attackers to send specially designed packets to a vulnerable system. This exploit gained notoriety due to its use in the WannaCry ransomware attack, which caused widespread damage across the globe.
 <br />
 <br />
+<h2>Key Characteristics</h2>
+
+- Vulnerability ID: MS17–010
+- CVE Identifiers:
+- CVE-2017–0144: Related to remote code execution through the SMBv1 protocol.
+- CVE-2017–0145: Related vulnerability affecting the SMB protocol.
+- CVE-2017–0146: Another associated vulnerability.
+- Affected Systems: Windows 7, Windows Server 2008, and earlier versions with SMB v1 enabled.
+- Impact: Remote Code Execution, allowing attackers to gain full control of the system.
 
 <p align="center">
 <img src="https://i.imgur.com/3d3CEwZ.png" height="85%" width="85%" alt="RDP event fail logs to iP Geographic information"/>
 </p>
-<h2>Languages Used</h2>
-
+<h2>Initial Reconnaissance</h2>
 - <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
 
 <h2>Utilities Used</h2>
