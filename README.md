@@ -1,16 +1,15 @@
 <h1>Exploiting EternalBlue (MS17–010)</h1>
 
 
- ### [YouTube Demonstration (@16:20)](https://youtu.be/RoZeVbbZ0o0?t=980)
+ ### [YouTube Demonstration (@16:20)](https://www.youtube.com/watch?v=atdk4paWL8w)
 
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>EternalBlue is an exploit developed by the NSA and leaked by the Shadow Brokers in 2017.
 </b>
 <br />
 <br />
-Understanding EternalBlue
-EternalBlue is an exploit developed by the NSA and leaked by the Shadow Brokers in 2017. It targets a flaw in Microsoft’s implementation of the SMB protocol, specifically versions 1.0, enabling attackers to send specially designed packets to a vulnerable system. This exploit gained notoriety due to its use in the WannaCry ransomware attack, which caused widespread damage across the globe.
+This exploit targets a flaw in Microsoft’s implementation of the SMB protocol, specifically versions 1.0, enabling attackers to send specially designed packets to a vulnerable system. This exploit gained notoriety due to its use in the WannaCry ransomware attack, which caused widespread damage across the globe.
 <br />
 <br />
 <h2>Key Characteristics</h2>
