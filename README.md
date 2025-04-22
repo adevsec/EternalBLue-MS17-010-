@@ -1,7 +1,7 @@
 <h1>Exploiting EternalBlue (MS17–010)</h1>
 
 
- ### [YouTube Demonstration (@16:20)](https://www.youtube.com/watch?v=atdk4paWL8w)
+ ### [YouTube Demonstration](https://www.youtube.com/watch?v=atdk4paWL8w)
 
 
 <h2>Description</h2>
